@@ -12,12 +12,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        {/* Testing navBar */}
-        <Navbar />
+        {/* Testing */}
         <Test />
         <a
           className="App-link"
@@ -26,6 +21,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React My Dude
+          
         </a>
       </header>
     </div>
