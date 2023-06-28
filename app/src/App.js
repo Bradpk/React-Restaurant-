@@ -14,6 +14,7 @@ function App() {
       <header className="App-header">
         {/* Testing */}
         <Test />
+        <Navbar />
         <a
           className="App-link"
           href="https://reactjs.org"
