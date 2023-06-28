@@ -39,10 +39,10 @@
 
 
 h1 {
- color:red
+ color:red;
 }
 
-nav{
+nav a {
   color:black;
   text-decoration: none;
 }
