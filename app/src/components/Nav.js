@@ -1,13 +1,12 @@
 function Navbar() {
     return (
         <div className='nav'>
-            <nav>
-                <ol>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Hours</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+            <nav className='container-fluid'>
+                <ol className='row'>
+                    <div className='col-3'><a href="#">Brads Bistro in the Bush</a></div>
+                    <div className='col-3'><a href="#">Menu</a></div>
+                    <div className='col-3'><a href="#">Hours</a></div>
+                    <div className='col-3'><a href="#">About</a></div>
                 </ol>
             </nav>
         </div>
