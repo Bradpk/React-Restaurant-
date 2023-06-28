@@ -13,8 +13,7 @@ import Test from './components/Test';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/* Testing */}
+      
         <Navbar />
         <Test />
         <a
@@ -26,7 +25,7 @@ function App() {
           Learn React My Dude
           
         </a>
-      </header>
+      
     </div>
   );
 }
