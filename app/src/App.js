@@ -13,8 +13,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* Testing */}
-        <Test />
         <Navbar />
+        <Test />
         <a
           className="App-link"
           href="https://reactjs.org"
