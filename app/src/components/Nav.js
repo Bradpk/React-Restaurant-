@@ -1,15 +1,16 @@
-function Navbar(){
-    return       <nav>
+function Navbar() {
+    return
     <div className='nav'>
-        <ol>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Hours</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ol>
+        <nav>
+            <ol>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Hours</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ol>
+        </nav>
     </div>
-</nav>
 }
 
 export default Navbar

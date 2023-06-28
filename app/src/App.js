@@ -6,6 +6,7 @@ import Header from './components/Header';
 import MainContent from './components/MainContent';
 import Footer from './components/Footer';
 import Navbar from './components/Nav';
+import Test from './components/Test';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         {/* Testing navBar */}
-        <navBar />
+        <Navbar />
+        <Test />
         <a
           className="App-link"
           href="https://reactjs.org"
