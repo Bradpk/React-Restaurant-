@@ -1,5 +1,5 @@
 function Test() {
-    return <div className='title'><h1>Testing</h1></div>
+    return <div className='title'><img src="img/" alt="image" /></div>
 }
 
 export default Test

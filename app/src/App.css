@@ -46,3 +46,13 @@ nav a {
   color:black;
   text-decoration: none;
 }
+
+.navigation {
+  background-color: #61dafb;
+  padding: 20px;
+}
+
+.endinfo {
+  background-color: #61dafb;
+  padding: 20px;
+}
