@@ -9,17 +9,17 @@ import MainContent from './components/MainContent';
 import MenuItems from './components/MenuItems';
 import Navbar from './components/Nav';
 import Test from './components/Test';
+import Slither from './components/Slither';
+
 
 function App() {
   return (
     <div className="App">
       
         <Navbar />
+        <Slither />
         <Test />
-      
-        <a>
-          Learn React My Dude
-        </a>
+        <Slither />
         <Footer />
       
     </div>
