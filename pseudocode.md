@@ -35,3 +35,10 @@ Implement DoorDash style online ordering with parent-child component state manag
 Include a different 'specials' menu for each day of the week that the restaurant is open and show that menu based on the current day (should prove to work throughout the week) as well as what was on the specials menu yesterday/ what will be on the specials menu tomorrow. Can be done randomly and keep in localStorage so it never changes.
 
 
+STEP BY STEP:
+
+User goes to the page 
+
+User view 
+
+QUESTIONS:
