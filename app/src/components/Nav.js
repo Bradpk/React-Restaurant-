@@ -1,7 +1,7 @@
 const user = {
     imageUrl: 'https://flxt.tmsimg.com/assets/p15925023_i_h9_aa.jpg',
     imageWidth: 200,
-    imageHeight: 175,
+    imageHeight: 150,
   };
   
   function Profile() {
