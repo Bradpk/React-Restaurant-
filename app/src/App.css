@@ -41,7 +41,7 @@
 .title {
  color:red;
  height: 610px;
- background-color: aquamarine;
+ background-color: #3e4640;
 }
 
 nav a {
@@ -50,26 +50,26 @@ nav a {
 }
 
 .navigation {
-  background-color: #61dafb;
+  background-color: #3e4640;
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
 .text{
-  background-color: #61dafb;
+  background-color: #322816;
  font-size: 40px;
 padding-top: 2%;
 }
 
 .texttitle{
-  background-color: #61dafb;
+  background-color: #3e4640;
  font-size: 40px;
 padding-top: 1%;
 }
 
 
 .endinfo {
-  background-color: #61dafb;
+  background-color: #3e4640;
   padding: 20px;
 }
 
