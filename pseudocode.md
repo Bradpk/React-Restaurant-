@@ -50,3 +50,8 @@ Menu Cards
 
 Footer
 - Displays the Locations and hours of operation
+
+
+Functional 
+
+Object

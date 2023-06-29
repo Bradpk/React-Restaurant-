@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 // I did this 
@@ -18,7 +17,7 @@ function App() {
       
         <Navbar />
         <Slither />
-        <Test />
+        <MainContent />
         <Slither />
         <Footer />
       
