@@ -26,7 +26,7 @@ function Navbar() {
             <nav className='container-fluid'>
                 <ol className='row'>
                 <div className='col-2'><Profile /></div>
-                    <div className='col-4 texttitle'><a href="#">Brad's Bistro In <br />The Bush</a></div>
+                    <div className='col-4 texttitle'><a href="#">Bistro In <br />The Bush</a></div>
                     <div className='col-2 text'><a href="#">Menu</a></div>
                     <div className='col-2 text'><a href="#">Events</a></div>
                     <div className='col-2 text'><a href="#">About</a></div>
