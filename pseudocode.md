@@ -1,13 +1,13 @@
 REACT RANDOM RESTAURANT 
 
 
-Description
+DESCRIPTION: 
 You've been asked to design a menu website for a new restaurant opening at 348 E Main St, Lexington, KY. The owners are busy working on their recipes and haven't picked a name yet, so they've asked you to suggest one and use it in your design.
 They've populated an API with many possible choices. You are to use the API to generate a sample menu to add to your website. The API URL is: https://www.jsonkeeper.com/b/MDXW 
 NOTE: you will also need to install a CORS Extension on Chrome to get the api call to work correctly. You will need to enable this app on the user facing side of your react application AND make your port:3000 public when trying to use axios to make the call to the API endpoint.
 
 
-MoSCoW 
+MoSCoW:
 
 Must: 
 Wireframes for the website design (include them in your repo as photos and/or screenshots)
@@ -33,7 +33,8 @@ Won't:
 Implement DoorDash style online ordering with parent-child component state management and a 'shopping cart' to save data for purchase.
 Include a different 'specials' menu for each day of the week that the restaurant is open and show that menu based on the current day (should prove to work throughout the week) as well as what was on the specials menu yesterday/ what will be on the specials menu tomorrow. Can be done randomly and keep in localStorage so it never changes.
 
-Atomic Structure: 
+
+ATOMIC STRUCTURE:
 
 Atoms: 
 image/logo, 
@@ -66,8 +67,12 @@ the completed page,
 
 
 QUESTIONS:
+How do I retrieve the API data? 
+How do I assign specific data from the API to the cards?
+What even are props, hooks and how do I use them?
 
-VARIABLES & COMPONENTS 
+
+VARIABLES & COMPONENTS;
 
 Navigation Bar 
 - To Display The Resturant Title, Logo & Page Links
@@ -82,11 +87,11 @@ Footer
 - Displays the Locations and hours of operation
 
 
-Functional 
+FUNCTIONAL:
 
 Import Api Data:
 To retrieve the data and populate each menu card with relavant information 
 
 Event Handler:
-To display the menu cards when the menu link is clicked
+To display the menu cards and their information when the menu link in the nav bar is clicked
 
