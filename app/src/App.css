@@ -51,8 +51,22 @@ nav a {
 
 .navigation {
   background-color: #61dafb;
-  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
+
+.text{
+  background-color: #61dafb;
+ font-size: 40px;
+padding-top: 2%;
+}
+
+.texttitle{
+  background-color: #61dafb;
+ font-size: 40px;
+padding-top: 1%;
+}
+
 
 .endinfo {
   background-color: #61dafb;
