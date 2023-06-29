@@ -1,6 +1,8 @@
+import MenuItems from "./MenuItems"
+
 function Test() {
     return <div className='title'>
-        <div></div><h1>Hello</h1></div>
+        <div></div><MenuItems /></div>
 }
 
 export default Test
