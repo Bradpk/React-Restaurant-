@@ -12,7 +12,7 @@ function MainContent() {
     }, []);
 
     return (
-        <div>
+        <div className='mainback'>
             <h1>Bush Tucker</h1>
             {menuItems.length === 0 ? (
                 <div>Loading</div>
@@ -23,7 +23,7 @@ function MainContent() {
                         <h6>{item.cuisine_type}</h6>
                         <h6>{item.category}</h6>
                         <h6>{item.description}</h6>
-                        <h6>{item.price}</h6>
+                        <h6>${item.price}</h6>
                         <br />
                     </div>
                 ))

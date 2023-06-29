@@ -29,10 +29,40 @@ Use React Context
 Modify your Title and Meta Tags using create-react-app.
 Pepper Emojis/icons/pictures for spicy level
 
-
 Won't: 
 Implement DoorDash style online ordering with parent-child component state management and a 'shopping cart' to save data for purchase.
 Include a different 'specials' menu for each day of the week that the restaurant is open and show that menu based on the current day (should prove to work throughout the week) as well as what was on the specials menu yesterday/ what will be on the specials menu tomorrow. Can be done randomly and keep in localStorage so it never changes.
+
+Atomic Structure: 
+
+Atoms: 
+image/logo, 
+title, 
+menu page text, 
+about page text, 
+event page text, 
+food title, 
+food price, 
+food description, 
+food catogory,
+hours of operation text,
+location text,
+
+Molecules:
+cards that contain food info. e.g food title, food price, food descrition, food catogory 
+
+Organisms: 
+navbar,
+seperator,
+main content,
+seperator,
+footer
+
+Templates: 
+the wireframe from the main page,
+
+Pages:
+the completed page,
 
 
 QUESTIONS:

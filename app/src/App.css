@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -91,4 +92,8 @@ nav a {
 
 .card {
   margin: 5%;
+}
+
+.mainback {
+  background-color: rgb(255, 251, 240);
 }
