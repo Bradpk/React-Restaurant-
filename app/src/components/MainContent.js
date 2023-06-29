@@ -9,16 +9,13 @@ function MainContent() {
             .then(response => {
                 setMenuItems(response.data);
             })
-            .catch(error => {
-                console.error('Error', error);
-            });
     }, []);
 
     return (
         <div>
-            <h1>Menu</h1>
+            <h1>Bush Tucker</h1>
             {menuItems.length === 0 ? (
-                <div>Loading...</div>
+                <div>Loading</div>
             ) : (
                 menuItems.map(item => (
                     <div key={item.id}>

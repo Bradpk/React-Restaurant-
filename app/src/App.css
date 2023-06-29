@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -39,44 +40,55 @@
 
 
 .title {
- color:red;
- height: 610px;
- background-color: #3e4640;
+  height: 610px;
+  background-color: #001c08;
 }
 
 nav a {
-  color:black;
+  color: black;
   text-decoration: none;
 }
 
 .navigation {
-  background-color: #3e4640;
+  background-color: #001c08;
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
-.text{
-  background-color: #322816;
- font-size: 40px;
-padding-top: 2%;
+.text {
+  background-color: #001c08;
+  font-size: 40px;
+  padding-top: 2%;
 }
 
-.texttitle{
-  background-color: #3e4640;
- font-size: 40px;
-padding-top: 1%;
+.texttitle {
+  background-color: #001c08;
+  font-size: 40px;
+  padding-top: 2%;
+}
+
+.Bistro {
+  color:white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Bistro2 {
+  color:white;
+  font-size: 15px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 
 .endinfo {
-  background-color: #3e4640;
+  background-color: #001c08;
   padding: 20px;
+  color:white
 }
 
 .slither {
   height: 8px;
- }
+}
 
- .card {
+.card {
   margin: 5%;
- }
+}
