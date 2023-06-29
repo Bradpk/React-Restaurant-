@@ -84,4 +84,9 @@ Footer
 
 Functional 
 
-Object
+Import Api Data:
+To retrieve the data and populate each menu card with relavant information 
+
+Event Handler:
+To display the menu cards when the menu link is clicked
+
