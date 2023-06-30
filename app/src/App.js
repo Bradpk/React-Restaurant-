@@ -1,33 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
 
 // I did this 
-import Header from './components/Header';
-import MainContent from './components/MainContent';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
 import Footer from './components/Footer';
+import MainContent from './components/MainContent';
+import MenuItems from './components/MenuItems';
 import Navbar from './components/Nav';
 import Test from './components/Test';
+import Slither from './components/Slither';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        {/* Testing navBar */}
+      
         <Navbar />
-        <Test />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React My Dude
-        </a>
-      </header>
+        <Slither />
+        <MainContent />
+        <Slither />
+        <Footer />
+      
     </div>
   );
 }
