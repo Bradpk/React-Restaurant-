@@ -11,13 +11,15 @@ function MainContent() {
             })
     }, []);
 
+    const filteredItems = menuItems.filter(item => item.category === 'Breakfast');
+
     return (
         <div className='mainback'>
             <h1>Bush Tucker</h1>
             {menuItems.length === 0 ? (
                 <div>Loading</div>
             ) : (
-                menuItems.map(item => (
+                filteredItems.map(item => (
                     <div key={item.id}>
                         <h3>{item.title}</h3>
                         <h6>{item.cuisine_type}</h6>

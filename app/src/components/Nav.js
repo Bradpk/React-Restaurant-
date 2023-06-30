@@ -29,7 +29,7 @@ function Navbar() {
                 <ol className='row'>
                 <div className='col-2'><Profile /></div>
                     <div className='col-4 texttitle'><a href="#" className="Bistro">Bistro In The Bush</a></div>
-                    <div className='col-2 text'><a href="#" className="Bistro2">Menu</a></div>
+                    <div className='col-2 text'><a href="#" className="Bistro2">Breakfast Menu</a></div>
                     <div className='col-2 text'><a href="#" className="Bistro2">Events</a></div>
                     <div className='col-2 text'><a href="#" className="Bistro2">About</a></div>
                 </ol>
