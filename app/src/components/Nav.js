@@ -1,3 +1,4 @@
+
 const user = {
     imageUrl: 'https://flxt.tmsimg.com/assets/p15925023_i_h9_aa.jpg',
     imageWidth: 200,
@@ -37,3 +38,4 @@ function Navbar() {
 }
 
 export default Navbar
+
