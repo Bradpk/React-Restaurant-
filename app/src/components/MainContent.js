@@ -6,7 +6,7 @@ function MainContent() {
     const [selectedCategory, setSelectedCategory] = useState('');
 
     useEffect(() => {
-        axios.get('https://www.jsonkeeper.com/b/MDXW')
+        axios.get('http://127.0.0.1:8000/menu/getmenu/') // https://www.jsonkeeper.com/b/MDXW
             .then(response => {
                 setMenuItems(response.data);
             })
