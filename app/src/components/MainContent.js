@@ -26,9 +26,11 @@ function MainContent() {
     return (
         <div className='mainback'>
             <h1>Bush Tucker</h1>
+            <button onClick={() => handleClick('Appetizer')}>Appetizers</button>
             <button onClick={() => handleClick('Breakfast')}>Breakfast</button>
             <button onClick={() => handleClick('Lunch')}>Lunch</button>
             <button onClick={() => handleClick('Dinner')}>Dinner</button>
+            <button onClick={() => handleClick('Drink')}>Drinks</button>
 
             {filteredItems.map(item => (
                 <div key={item.id}>

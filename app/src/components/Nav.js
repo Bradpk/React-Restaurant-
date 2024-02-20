@@ -5,11 +5,13 @@ const user = {
     imageWidth: 200,
     imageHeight: 150,
   };
-  
-  function Profile() {
+
+function Navbar() {
     return (
-      <>
-        <img
+        <div className='navigation'>
+            <nav className='container-fluid'>
+                <ol className='row'>
+                <img
           className="avatar"
           src={user.imageUrl}
           alt={'Photo of ' + user.name}
@@ -18,20 +20,10 @@ const user = {
             height: user.imageHeight
           }}
         />
-      </>
-    );
-  }
-
-function Navbar() {
-    return (
-        <div className='navigation'>
-            <nav className='container-fluid'>
-                <ol className='row'>
-                <div className='col-2'><Profile /></div>
-                    <div className='col-4 texttitle'><a href="#" className="Bistro">Bistro In The Bush</a></div>
-                    <div className='col-2 text'><a href="#" className="Bistro2">Menu</a></div>
-                    <div className='col-2 text'><a href="#" className="Bistro2">Events</a></div>
-                    <div className='col-2 text'><a href="#" className="Bistro2">About</a></div>
+                    <div className='col-12 col-lg-6 texttitle'><a href="#" className="Bistro">Bistro In The Bush</a></div>
+                    <div className='col-4 col-lg-1 text'><a href="#" className="Bistro2">Menu</a></div>
+                    <div className='col-4 col-lg-1 text'><a href="#" className="Bistro2">Events</a></div>
+                    <div className='col-4 col-lg-1 text'><a href="#" className="Bistro2">About</a></div>
                 </ol>
             </nav>
         </div>

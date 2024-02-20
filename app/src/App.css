@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   align-items: center;
+  letter-spacing: 0.5px;
 }
 
 nav a {
@@ -10,8 +11,6 @@ nav a {
 
 .navigation {
   background-color: #001c08;
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 
 .text {
@@ -28,15 +27,14 @@ nav a {
 
 .Bistro {
   color:white;
-  font-family:cursive
+  font-family:cursive;
 }
 
 .Bistro2 {
   color:white;
   font-size: 20px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 
 .endinfo {
   background-color: #001c08;
@@ -48,22 +46,22 @@ nav a {
   height: 8px;
 }
 
-.card {
-  margin: 5%;
-}
-
 .mainback {
   background-color: rgb(255, 251, 240);
 }
 
 .mainback button {
   margin: 30px;
-  appearance: none;
-  background-color: #FAFBFC;
-  border: 1px solid rgba(27, 31, 35, 0.15);
+  border: 1px solid#001c08;
   border-radius: 6px;
   cursor: pointer;
   font-size: 20px;
   line-height: 30px;
   padding: 6px 16px;
+}
+
+@media (max-width: 992px) {
+  .avatar {
+    display: none; 
+  }
 }
