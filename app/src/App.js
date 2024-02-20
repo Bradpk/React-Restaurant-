@@ -4,8 +4,6 @@ import 'bootstrap/dist/js/bootstrap.js';
 import Footer from './components/Footer';
 import MainContent from './components/MainContent';
 import Navbar from './components/Nav';
-import Slither from './components/Slither';
-
 
 function App() {
   return (
