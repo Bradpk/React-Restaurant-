@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import Footer from './components/Footer';
@@ -15,11 +15,10 @@ function App() {
         <MainContent />
         <Footer />
         <div className='content'>
-          {/* <Switch>
-            <Route path="/about">
-              <About />
+          {/* <Routes>
+            <Route path="/About" element={<About/>}>
             </Route>
-        </Switch> */}
+        </Routes> */}
       </div>
       </div>
     </Router>
